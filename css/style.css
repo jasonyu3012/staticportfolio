@@ -7,6 +7,16 @@ html {
     font-size: 80%;
 }
 
+*::-webkit-scrollbar {
+    width: 1vh;
+    background-color: rgb(243, 243, 243);
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: rgb(125, 125, 125);
+    border-radius: 1rem;
+}
+
 body{
     margin: 0;
     padding: 0;
@@ -390,14 +400,19 @@ i {
     overflow-x: scroll;
 }
 
-/* hide scroll bars */
+/* hide scroll bars, commeneted bc horizontal scrolling can't be done with mouse*/ 
 .row.container::-webkit-scrollbar {
-    display: none;
+    background-color: rgb(231, 231, 231);
+    height: 1vh;
+}
+
+.row.container::-webkit-scrollbar-thumb {
+    background-color: rgb(73, 111, 184);
 }
 
 .row.container {
-    -ms-overflow-style: none;  /* IE and Edge */
-    scrollbar-width: none;  /* Firefox */
+    -ms-overflow-style: none;
+    scrollbar-width: none;
 }  
 
 .wrapper {
