@@ -24,7 +24,7 @@ body{
 p {
     display: block;
     margin: 14px 5px;
-    opacity: .8;
+    opacity: .95;
     font-size: 1.5rem;
     /* letter-spacing: .35px; */
 }
@@ -51,7 +51,7 @@ p {
 .panel {
     width: 100%;
     margin: 0;
-    padding: 1.25rem;
+    padding: 0rem 1.4rem 1.4rem 1.4rem;
     text-align: center;
     color: #000;
 }
@@ -63,6 +63,7 @@ p {
 .header {
     width: 100%;
     height: 100vh;
+    margin-bottom: 1.4rem;
     position: relative;
     text-align: center;
     color: white;
@@ -119,6 +120,7 @@ p {
 
 .header p {
     margin: 7px;
+    opacity: .8;
 }
 
 .icon-container {
@@ -136,8 +138,8 @@ p {
 }
 
 .enlarge {
-    transition: opacity 225ms ease-in-out;
-    transition: scale 150ms ease-in-out;
+    transition: opacity 225ms ease;
+    transition: scale 150ms ease;
 }
 
 .enlarge:hover {
@@ -167,8 +169,8 @@ p {
 }
 
 i {
-    color: #000;
-    opacity: 1;
+    color: rgb(80, 80, 154);
+    opacity: .9;
 }
 
 .vert-txt {
@@ -246,7 +248,7 @@ i {
 
 .job .card {
     margin: 0rem;
-    max-width: 300px;
+    max-width: 350px;
     min-width: 10px;
     max-height: 400px;
     overflow-x: hidden;
@@ -281,14 +283,30 @@ i {
     box-shadow: 0px 2px 5px 0 rgba(0, 0, 0, .2);
 } 
 
+@media (max-width:800px) {
+    .job .card {
+        max-width: 500px;
+    }
+    .card-header.card-img img {
+        width: 40%;
+        min-width: 150px;
+    }
+}
+
 .card-body h1 {
     margin: .5rem 0rem;
 }
 
 .card-body h2 {
+    color: rgb(43, 43, 43);
+    margin: .5rem 0rem;
+
+}
+
+.card-body h3 {
     color: rgb(120, 120, 120);
     margin: .5rem 0rem;
-    font-size: 1.35rem;
+
 }
 
 .card-body ul {
@@ -297,18 +315,22 @@ i {
     font-size: 1.15rem;
 }
 
+.job .caret > i {
+    color: #000;
+}
+
 .job .card:hover .caret {
     opacity: 0;
 }
 
 .card .enlarge {
-    transition: opacity 225ms ease-in-out;
-    transition: scale 150ms ease-in-out;
+    transition: opacity 225ms ease;
+    transition: scale 150ms ease;
 }
 
 .card .enlarge:hover {
     opacity: .95;
-    scale: 1.05;
+    scale: 1.075;
 }
 
 /* hide scroll bars */
