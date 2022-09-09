@@ -264,7 +264,7 @@ i {
     max-height: 400px;
     overflow-x: hidden;
     overflow-y: auto;
-    overscroll-behavior-block: contain;
+    overscroll-behavior-block: auto;
 }
 
 .job .card-box {
