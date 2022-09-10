@@ -22,11 +22,11 @@
 
 </head>
 <body>
-  <div class="header">
+  <div class="header" id="top">
     <div class="img-src" style="background-image: url(./images/ATX-Night-AdobeStock_217495023-scaled-blur.png);"></div>
     <div class="img-src clear-img" style="background-image: url(./images/ATX-Night-AdobeStock_217495023-scaled.jpeg)"></div>
-    <div class="portrait container" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1100" data-aos-easing="ease"><img src="./images/00000PORTRAIT_00000_BURST20190908174731076.png" alt="portrait"></div>
-    <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1100" data-aos-easing="ease">Jason</h1>
+    <div class="portrait container" data-aos="fade-up" data-aos-delay="1300" data-aos-duration="1100" data-aos-easing="ease" id="profile-pic"><img src="./images/00000PORTRAIT_00000_BURST20190908174731076.png" alt="portrait"></div>
+    <h1 data-aos="fade-up" data-aos-delay="200" data-aos-duration="1100" data-aos-easing="ease" id="name">Jason</h1>
     <p data-aos="fade-up" data-aos-delay="700" data-aos-duration="900" data-aos-easing="ease-out">Hi! My name is Jason Yu. I currently attend the University of Texas.</p>
     <p data-aos="fade-up" data-aos-delay="900" data-aos-duration="900" data-aos-easing="ease-out">I love to code, game, and learn new things.</p>
     <h2>Austin, TX</h2>
@@ -39,10 +39,10 @@
     </div>
     <div class="caret"><i class="fa-solid fa-caret-down fa-xl fa-bounce"></i></div>
   </div>
-  <div class="intro panel">
+  <div class="intro panel" id="about">
     <div class="card card-shadow" data-aos="fade-up" data-aos-delay="200" data-aos-duration="900" data-aos-easing="ease">
       <div class="container panel-header"><a href="./files/JasonYuResumePriv.pdf" target="_blank"><i class="fa-solid fa-file fa-3x fa-beat enlarge" style="--fa-beat-scale: 1.275;"></i></a></div>
-      <h1>Here is my résumé.</h1>
+      <h1>Click for my résumé.</h1>
       <div class="vert-txt">
         <p>I am currently a student at the University of Texas pursuing a major in computer science with a minor in business.</p>
         <p>I started my programming journey on a whim when I first started college, because I particularly enjoyed scienced related subjects that involved problem solving, but I also had interests in creative design.</p>
@@ -53,7 +53,7 @@
       </div>
     </div>
   </div>
-  <div class="panel">
+  <div class="panel" id="experience">
     <div class="background container" style="background-image: url(./images/wallhaven-49ww18-blur.png);">
       <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="900" data-aos-easing="ease" id="trigger">My Experience</h1>
     </div>
@@ -103,11 +103,10 @@
             <div class="caret"><i class="fa-solid fa-caret-down fa-xl fa-bounce"></i></div>
         </div>
       </div>
-      <div class="card-box" data-aos="fade-right" data-aos-delay="400" data-aos-duration="900" data-aos-easing="ease" data-aos="fade-right"
-      data-aos-anchor="#trigger"
+      <div class="card-box" data-aos="fade-right" data-aos-delay="400" data-aos-duration="900" data-aos-easing="ease" data-aos-anchor="#trigger"
       data-aos-anchor-placement="top-center">
         <div class="card card-shadow">
-            <div class="card-header card-img"><a href="#"><img src="./images/restaurant-kitchen.png" alt="" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="" target="_blank"><img src="./images/restaurant-kitchen.png" alt="" class="enlarge"></a></div>
             <div class="card-body">
               <h1>Kung Food Asian Restaurant</h1>
               <h2>Kitchen Expeditor, Server</h2>
@@ -127,7 +126,7 @@
       </div>
     </div>
   </div>
-  <div class="panel">
+  <div class="panel" id="skills">
     <div class="background container" style="background-image: url(./images/programming-1873854\ \(1\).png);">
       <h1 data-aos="fade-up" data-aos-delay="100" data-aos-duration="900" data-aos-easing="ease" id="trigger">Here are some of my skills</h1>
     </div>
@@ -136,41 +135,97 @@
     <div class="card card-shadow">
       <div class="java container">
         <div class="card card-shadow">
-          <div class="card-header card-img"><a href="https://www.java.com/en/"><img src="./images/Java_programming_language_logo.svg.png" alt="Java logo" class="enlarge"></a></div>
+          <div class="card-header card-img"><a href="https://www.java.com/en/" target="_blank"><img src="./images/Java_programming_language_logo.svg.png" alt="Java logo" class="enlarge"></a></div>
           <h1>Java</h1>
         </div>
         <h1>I code mostly in Java, but I'm also familiar with:</h1>
       </div>
-      <div class="wrapper"> 
+      <div class="wrapper" data-aos="fade-right" data-aos-delay="50" data-aos-duration="700" data-aos-easing="ease"> 
         <div class="row container">
           <div class="card card-shadow">
-            <div class="card-header card-img"><a href="https://en.wikipedia.org/wiki/C_(programming_language)"><img src="./images/C_Logo.png" alt="C" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank"><img src="./images/C_Logo.png" alt="C" class="enlarge"></a></div>
             <h1>C</h1>
           </div>
           <div class="card card-shadow">
-            <div class="card-header card-img"><a href="https://html.spec.whatwg.org//"><img src="./images/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="https://html.spec.whatwg.org//" target="_blank"><img src="./images/1200px-HTML5_logo_and_wordmark.svg.png" alt="HTML" class="enlarge"></a></div>
             <h1>HTML</h1>
           </div>
           <div class="card card-shadow">
-            <div class="card-header card-img"><a href="https://www.w3.org/Style/CSS/Overview.en.html"><img src="./images/CSS3_logo_and_wordmark.svg.png" alt="CSS" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="https://www.w3.org/Style/CSS/Overview.en.html" target="_blank"><img src="./images/CSS3_logo_and_wordmark.svg.png" alt="CSS" class="enlarge"></a></div>
             <h1>CSS</h1>
           </div>
           <div class="card card-shadow">
-            <div class="card-header card-img"><a href="https://www.javascript.com/"><img src="./images/JavaScript-logo.png" alt="JS" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="https://www.javascript.com/" target="_blank"><img src="./images/JavaScript-logo.png" alt="JS" class="enlarge"></a></div>
             <h1>Javascript</h1>
           </div>
           <div class="card card-shadow">
-            <div class="card-header card-img"><a href="https://www.python.org/"><img src="./images/Python-logo-notext.svg.png" alt="Python" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="https://www.python.org/" target="_blank"><img src="./images/Python-logo-notext.svg.png" alt="Python" class="enlarge"></a></div>
             <h1>Python</h1>
           </div>
           <div class="card card-shadow">
-            <div class="card-header card-img"><a href="https://www.iso.org/standard/63555.html"><img src="./images/Sql_data_base_with_logo.png" alt="Python" class="enlarge"></a></div>
+            <div class="card-header card-img"><a href="https://www.iso.org/standard/63555.html" target="_blank"><img src="./images/Sql_data_base_with_logo.png" alt="Python" class="enlarge"></a></div>
             <h1>SQL</h1>
           </div>
         </div>
       </div>
+      <h1 id="last">And some additional technologies</h1>
+      <div class="tech wrapper" data-aos="fade-left" data-aos-delay="50" data-aos-duration="700" data-aos-easing="ease">
+        <div class="row container">
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://github.com/" target="_blank"><img src="./images/GitHub-Mark.png" alt="Git" class="enlarge"></a></div>
+            <h1>Github</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://maven.apache.org/" target="_blank"><img src="./images/maven.png" alt="Maven" class="enlarge"></a></div>
+            <h1>Maven</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://spring.io/trademarks" target="_blank"><img src="./images/download (1).png" alt="Spring" class="enlarge"></a></div>
+            <h1>Spring</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://hibernate.org/" target="_blank"><img src="./images/hibernate_icon_whitebkg.svg" alt="Hibernate" class="enlarge"></a></div>
+            <h1>Hibernate</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://www.docker.com/" target="_blank"><img src="./images/Docker_Temporary_Image_Google_Blue_1080x1080_v1.webp" alt="Docker" class="enlarge"></a></div>
+            <h1>Docker</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://kubernetes.io/" target="_blank"><img src="./images/Kubernetes_logo_without_workmark.svg.png" alt="Kubernetes" class="enlarge"></a></div>
+            <h1>Kubernetes</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://www.postgresql.org/" target="_blank"><img src="./images/Postgresql_elephant.svg.png" alt="Postgres" class="enlarge"></a></div>
+            <h1>PostgreSQL</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://www.mongodb.com/" target="_blank"><img src="./images/MongoDB-Emblem.jpg" alt="Mongo" class="enlarge"></a></div>
+            <h1>MonogoDB</h1>
+          </div>
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://www.jetbrains.com/idea/" target="_blank"><img src="./images/intellij-idea_logo_300x300.png" alt="IntelliJ" class="enlarge"></a></div>
+            <h1>IntelliJ Idea</h1>
+          </div>  
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://www.linux.org/" target="_blank"><img src="./images/download.jpg" alt="Linux" class="enlarge"></a></div>
+            <h1>Linux</h1>
+          </div>
+          <div class="card card-shadow">
+            <div class="card-header card-img"><a href="https://www.latex-project.org/" target="_blank"><img src="./images/latex-logo-vector.svg" alt="LaTeX" class="enlarge"></a></div>
+            <h1>LaTeX</h1>
+          </div>  
+        </div>
+      </div>
     </div>
   </div> 
+  <div class="menu container" data-aos="fade-down" data-aos-duration="1100" data-aos-easing="ease" data-aos-anchor="#profile-pic" data-aos-anchor-placement="center-top" data-aos-once="false">
+    <a href="#top">Top</a>
+    <a href="#about">About</a>
+    <a href="#experience">Experience</a>
+    <a href="#skills">Skills</a>
+
+  </div>
   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
     AOS.init();

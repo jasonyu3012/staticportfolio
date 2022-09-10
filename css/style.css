@@ -133,8 +133,8 @@ p {
     opacity: .4;
     position: absolute;
     letter-spacing: .9px;
-    top: 10px;
-    left: 10px;
+    bottom: 15px;
+    left: 15px;
 }
 
 .header p {
@@ -369,7 +369,7 @@ i {
 
 .skill .card .card {
     margin: 1rem;
-    max-width: 250px;
+    max-width: 235px;
 }
 
 .skill .card-header.card-img img {
@@ -394,14 +394,7 @@ i {
 }
 
 .java.container .card{
-    max-width: 325px;
-}
-
-@media (max-width: 900px) {
-    .java.container > h1 {
-        width: 100%;
-        font-size: 3rem;
-    }
+    max-width: 275px;
 }
 
 .row.container {
@@ -432,6 +425,10 @@ i {
     position: relative;
 }
 
+#last {
+    font-size: 3.5rem;
+    margin: 2rem 1rem;
+}
 /* add transparent element */
 
 .wrapper::before { 
@@ -448,4 +445,43 @@ i {
 
 .row.container > .card {
     flex-shrink: 0;
+}
+
+.skill .card .tech .card {
+    max-width: 175px;
+}
+
+@media (max-width: 925px) {
+    .java.container > h1 {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .skill .card .card {
+        margin: 1rem;
+        max-width: 200px;
+    }
+
+    .java.container .card{
+        max-width: 250px;
+    }
+
+    #last {
+        font-size: 2.5rem;
+        margin: 1rem 1rem;
+    }
+}
+
+.menu {
+    position: fixed;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+    width: 100%;
+}
+
+.menu > a {
+    color: rgba(255, 255, 255, 0.822);
+    text-decoration: none;
+    margin: 1rem 2rem;
 }
