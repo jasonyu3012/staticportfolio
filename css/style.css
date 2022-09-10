@@ -5,6 +5,7 @@
 
 html {
     font-size: 80%;
+    overflow-x: hidden;
 }
 
 *::-webkit-scrollbar {
@@ -238,7 +239,7 @@ i {
 
 @media (max-width: 600px) {
     .background h1{
-        font-size: 5rem;
+        font-size: 4.25rem;
     }
 
 
@@ -454,6 +455,7 @@ i {
 @media (max-width: 925px) {
     .java.container > h1 {
         width: 100%;
+        margin: 1rem 0rem;
         font-size: 3rem;
     }
 
@@ -475,7 +477,6 @@ i {
 .menu {
     position: fixed;
     top: 0;
-    right: 0;
     background-color: rgba(0, 0, 0, 0.75);
     width: 100%;
 }
