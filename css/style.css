@@ -105,6 +105,12 @@ p {
     z-index: -1;
 }
 
+@media (max-width: 500px) {
+    .img-src {
+        background-attachment: scroll;
+    }
+}
+
 .clear-img {
     opacity: 0;
 }
