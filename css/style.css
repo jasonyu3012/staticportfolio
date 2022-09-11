@@ -376,7 +376,7 @@ i {
 
 .skill .card .card {
     margin: 1rem;
-    max-width: 235px;
+    max-width: 280px;
 }
 
 .skill .card-header.card-img img {
@@ -401,7 +401,7 @@ i {
 }
 
 .java.container .card{
-    max-width: 275px;
+    max-width: 325px;
 }
 
 .row.container {
